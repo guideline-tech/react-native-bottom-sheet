@@ -116,14 +116,14 @@ const BottomSheetBackdropComponent = ({
 
   //#region effects
   useAnimatedReaction(
-    () => animatedIndex.value <= disappearsOnIndex,
+    () => !(animatedIndex.value >= appearsOnIndex),
     (shouldDisableTouchability, previous) => {
       if (shouldDisableTouchability === previous) {
         return;
       }
       runOnJS(handleContainerTouchability)(shouldDisableTouchability);
     },
-    [disappearsOnIndex]
+    [appearsOnIndex]
   );
 
   // addressing updating the state after unmounting.
