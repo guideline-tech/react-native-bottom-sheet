@@ -75,10 +75,10 @@
     "react-native-reanimated": ">=2.2.0"
   },
   "peerDependenciesMeta": {
-    "@types/react-native": {
+    "@types/react": {
       "optional": true
     },
-    "@types/react": {
+    "@types/react-native": {
       "optional": true
     }
   },
