@@ -133,7 +133,10 @@ export function createBottomSheetScrollableComponent<T, P>(
           nativeGestureRef={nativeGestureRef}
           refreshControlGestureRef={refreshControlGestureRef}
           gestureType={GESTURE_SOURCE.SCROLLABLE}
-          style={styles.container}
+          // Removing flex: 1 for bug
+          // https://github.com/gorhom/react-native-bottom-sheet/issues/1697
+          // style={styles.container}
+          style={{ overflow: 'visible' }}
         >
           {onRefresh ? (
             <BottomSheetRefreshControl
