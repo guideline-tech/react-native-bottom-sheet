@@ -1,7 +1,6 @@
-/// <reference types="react-native-reanimated" />
-import { RefObject } from 'react';
+import { type RefObject } from 'react';
 import { SCROLLABLE_STATE, SCROLLABLE_TYPE } from '../constants';
-import type { ScrollableRef, Scrollable } from '../types';
+import type { Scrollable, ScrollableRef } from '../types';
 export declare const useScrollable: () => {
     scrollableRef: RefObject<ScrollableRef>;
     animatedScrollableType: import("react-native-reanimated").SharedValue<SCROLLABLE_TYPE>;
@@ -11,3 +10,4 @@ export declare const useScrollable: () => {
     setScrollableRef: (ref: ScrollableRef) => void;
     removeScrollableRef: (ref: RefObject<Scrollable>) => void;
 };
+//# sourceMappingURL=useScrollable.d.ts.map

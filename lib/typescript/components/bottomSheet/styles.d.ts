@@ -6,8 +6,11 @@ export declare const styles: {
         left: number;
         right: number;
     };
-    contentContainer: {};
+    contentContainer: {
+        overflow: "visible";
+    };
     contentMaskContainer: {
         overflow: "hidden";
     };
 };
+//# sourceMappingURL=styles.d.ts.map

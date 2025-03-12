@@ -10,3 +10,4 @@ export declare const styles: {
         backgroundColor: string;
     };
 };
+//# sourceMappingURL=styles.d.ts.map

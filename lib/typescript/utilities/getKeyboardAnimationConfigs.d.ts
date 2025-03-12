@@ -1,6 +1,6 @@
 import type { KeyboardEventEasing } from 'react-native';
 export declare const getKeyboardAnimationConfigs: (easing: KeyboardEventEasing, duration: number) => {
-    easing: (value: number) => number;
+    easing: import("react-native-reanimated").EasingFunction;
     duration: number;
     damping?: undefined;
     stiffness?: undefined;
@@ -18,3 +18,4 @@ export declare const getKeyboardAnimationConfigs: (easing: KeyboardEventEasing, 
     easing?: undefined;
     duration?: undefined;
 };
+//# sourceMappingURL=getKeyboardAnimationConfigs.d.ts.map

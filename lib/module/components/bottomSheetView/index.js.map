@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,mBAAxB","sourcesContent":["export { default } from './BottomSheetView';\n"]}
+{"version":3,"names":["default"],"sourceRoot":"../../../../src","sources":["components/bottomSheetView/index.ts"],"mappings":";;AAAA,SAASA,OAAO,QAAQ,mBAAmB","ignoreList":[]}

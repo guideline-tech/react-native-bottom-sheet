@@ -5,3 +5,4 @@
  * @param t number
  */
 export declare const exp: (t: number) => number;
+//# sourceMappingURL=easingExp.d.ts.map

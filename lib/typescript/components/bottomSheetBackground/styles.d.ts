@@ -4,3 +4,4 @@ export declare const styles: {
         borderRadius: number;
     };
 };
+//# sourceMappingURL=styles.d.ts.map

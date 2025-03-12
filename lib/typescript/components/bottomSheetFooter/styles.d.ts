@@ -5,5 +5,7 @@ export declare const styles: {
         left: number;
         right: number;
         zIndex: number;
+        pointerEvents: "box-none";
     };
 };
+//# sourceMappingURL=styles.d.ts.map
