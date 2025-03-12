@@ -7,3 +7,4 @@ export declare const styles: {
         bottom: number;
     };
 };
+//# sourceMappingURL=styles.d.ts.map

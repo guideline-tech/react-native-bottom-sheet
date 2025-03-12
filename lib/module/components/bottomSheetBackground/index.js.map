@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,yBAAxB","sourcesContent":["export { default } from './BottomSheetBackground';\nexport type { BottomSheetBackgroundProps } from './types';\n"]}
+{"version":3,"names":["default"],"sourceRoot":"../../../../src","sources":["components/bottomSheetBackground/index.ts"],"mappings":";;AAAA,SAASA,OAAO,QAAQ,yBAAyB","ignoreList":[]}

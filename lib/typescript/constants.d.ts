@@ -1,4 +1,4 @@
-import Animated from 'react-native-reanimated';
+import type Animated from 'react-native-reanimated';
 declare const WINDOW_HEIGHT: number, WINDOW_WIDTH: number;
 declare const SCREEN_HEIGHT: number, SCREEN_WIDTH: number;
 declare enum GESTURE_SOURCE {
@@ -51,6 +51,10 @@ declare enum KEYBOARD_STATE {
     SHOWN = 1,
     HIDDEN = 2
 }
+declare enum SNAP_POINT_TYPE {
+    PROVIDED = 0,
+    DYNAMIC = 1
+}
 declare const ANIMATION_EASING: Animated.EasingFunction;
 declare const ANIMATION_DURATION = 250;
 declare const ANIMATION_CONFIGS: {
@@ -62,7 +66,7 @@ declare const ANIMATION_CONFIGS: {
     restSpeedThreshold: number;
 } | {
     duration: number;
-    easing: Animated.EasingFunction;
+    easing: import("react-native-reanimated").EasingFunction;
 };
 declare const SCROLLABLE_DECELERATION_RATE_MAPPER: {
     2: number;
@@ -72,6 +76,7 @@ declare const SCROLLABLE_DECELERATION_RATE_MAPPER: {
 declare const MODAL_STACK_BEHAVIOR: {
     replace: string;
     push: string;
+    switch: string;
 };
 declare const KEYBOARD_BEHAVIOR: {
     readonly interactive: "interactive";
@@ -87,4 +92,5 @@ declare const KEYBOARD_INPUT_MODE: {
     readonly adjustResize: "adjustResize";
 };
 declare const KEYBOARD_DISMISS_THRESHOLD = 12.5;
-export { GESTURE_SOURCE, SHEET_STATE, ANIMATION_STATE, ANIMATION_METHOD, ANIMATION_SOURCE, SCROLLABLE_TYPE, SCROLLABLE_STATE, KEYBOARD_STATE, WINDOW_HEIGHT, WINDOW_WIDTH, SCREEN_HEIGHT, SCREEN_WIDTH, SCROLLABLE_DECELERATION_RATE_MAPPER, MODAL_STACK_BEHAVIOR, KEYBOARD_BEHAVIOR, KEYBOARD_BLUR_BEHAVIOR, KEYBOARD_INPUT_MODE, KEYBOARD_DISMISS_THRESHOLD, ANIMATION_CONFIGS, ANIMATION_EASING, ANIMATION_DURATION, };
+export { GESTURE_SOURCE, SHEET_STATE, ANIMATION_STATE, ANIMATION_METHOD, ANIMATION_SOURCE, SCROLLABLE_TYPE, SCROLLABLE_STATE, KEYBOARD_STATE, SNAP_POINT_TYPE, WINDOW_HEIGHT, WINDOW_WIDTH, SCREEN_HEIGHT, SCREEN_WIDTH, SCROLLABLE_DECELERATION_RATE_MAPPER, MODAL_STACK_BEHAVIOR, KEYBOARD_BEHAVIOR, KEYBOARD_BLUR_BEHAVIOR, KEYBOARD_INPUT_MODE, KEYBOARD_DISMISS_THRESHOLD, ANIMATION_CONFIGS, ANIMATION_EASING, ANIMATION_DURATION, };
+//# sourceMappingURL=constants.d.ts.map

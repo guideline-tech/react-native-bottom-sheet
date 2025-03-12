@@ -1,1 +1,1 @@
-{"version":3,"sources":["Touchables.tsx"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;AAAA","sourcesContent":["export {\n  TouchableOpacity,\n  TouchableHighlight,\n  TouchableWithoutFeedback,\n} from 'react-native-gesture-handler';\n"]}
+{"version":3,"names":["_reactNativeGestureHandler","require"],"sourceRoot":"../../../../src","sources":["components/touchables/Touchables.tsx"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;AAAA,IAAAA,0BAAA,GAAAC,OAAA","ignoreList":[]}
